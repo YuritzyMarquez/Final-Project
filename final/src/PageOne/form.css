@@ -1,0 +1,90 @@
+h1 {
+    position: relative;
+    left: 550px;
+    color: white;
+}
+
+h3 {
+    position: relative;
+    left: 100px;
+    color: white;
+}
+
+.adc {
+    position: relative;
+    left: 100px;
+    color: white;
+}
+
+.support {
+    position: relative;
+    left: 220px;
+    bottom: 138px;
+    color: white;
+}
+
+.jungler {
+    position: relative;
+    left: 320px;
+    bottom: 275px;
+    color: white;
+}
+
+.top{
+    position: relative;
+    left: 420px;
+    bottom: 411px;
+    color: white;
+}
+
+.midlaner {
+    position: relative;
+    left: 520px;
+    bottom: 548px;
+    color: white;
+}
+
+.runes {
+    position: relative;
+    left: 640px;
+    bottom: 687px;
+    color: white;
+}
+
+.border {
+    border-style: solid;
+    border-color: white;
+}
+
+.header {
+    background-color: #3c434a;
+}
+
+
+.table {
+    position: relative;
+    bottom: 600px;
+    left: 450px;
+    color: white;
+
+}
+
+.form {
+    position: relative;
+    left: 400px;
+    color: white;
+   
+}
+
+#buttons {
+    position: relative;
+    top: 50px;
+}
+
+.back {
+    background-color: #3c434a;
+}
+
+body {
+    background-color: black;
+}

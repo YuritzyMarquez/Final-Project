@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page One</title>
+
+</head>
+
+
+<link rel="stylesheet" href="form.css">
+
+<body>
+    <H1>League of Legends</H1>
+
+
+    <h3>Select your team:</h3>
+    <h3>Choose your champions and runes</h3>
+    
+        <table class="adc border">
+            <th class="header">ADC</th>
+            <tr>
+                <td>Draven</td>
+            </tr>
+            <tr>
+                <td>Aphelios</td>
+            </tr>
+            <tr>
+                <td>Miss Fortune</td>
+            </tr>
+            <tr>
+                <td>Lucian</td>
+            </tr>
+            <tr>
+                <td>Kaisa</td>
+            </tr>
+        </table>
+    
+        <table class="support border">
+            <th class="header">Support</th>
+            <tr>
+                <td>Seraphine</td>
+            </tr>
+            <tr>
+                <td>Soraka</td>
+            </tr>
+            <tr>
+                <td>Senna</td>
+            </tr>
+            <tr>
+                <td>Swain</td>
+            </tr>
+            <tr>
+                <td>Blitz</td>
+            </tr>
+        </table>
+    
+        <table class="jungler border">
+            <th class="header">Jungler</th>
+            <tr>
+                <td>Graves</td>
+            </tr>
+            <tr>
+                <td>Viego</td>
+            </tr>
+            <tr>
+                <td>Udyr</td>
+            </tr>
+            <tr>
+                <td>Nunu</td>
+            </tr>
+            <tr>
+                <td>Rammus</td>
+            </tr>
+        </table>
+    
+        <table class="top border">
+            <th class="header">Top</th>
+            <tr>
+                <td>Kayle</td>
+            </tr>
+            <tr>
+                <td>Garen</td>
+            </tr>
+            <tr>
+                <td>Nasus</td>
+            </tr>
+            <tr>
+                <td>Darius</td>
+            </tr>
+            <tr>
+                <td>Urgot</td>
+            </tr>
+        </table>
+    
+        <table class="midlaner border">
+            <th class="header">Mid Laner</th>
+            <tr>
+                <td>Akali</td>
+            </tr>
+            <tr>
+                <td>Lux</td>
+            </tr>
+            <tr>
+                <td>Syndra</td>
+            </tr>
+            <tr>
+                <td>Zed</td>
+            </tr>
+            <tr>
+                <td>Yasuo</td>
+            </tr>
+        </table>
+
+        <table class="runes border">
+            <th class="header">Runes</th>
+            <tr>
+                <td>Precision</td>
+            </tr>
+            <tr>
+                <td>Sorcery</td>
+            </tr>
+            <tr>
+                <td>Resolve</td>
+            </tr>
+            <tr>
+                <td>Domination</td>
+            </tr>
+            <tr>
+                <td>Inspiration</td>
+            </tr>
+        </table>
+        <table class="table back">
+            <tr>
+                <td>
+                    <form autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="champion">Champion</label><br>
+                            <input type="text" name="champion" id="champion">
+                        </div>
+                        <div>
+                            <label for="role">Role</label><br>
+                            <input type="text" name="role" id="role">
+                        </div>
+                        <div>
+                            <label for="runes">Runes</label><br>
+                            <input type="text" name="runes" id="runes">
+                        </div>
+    
+                        <div class="form_action--button" id="buttons">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+                    
+                    <td>
+                        <table id="championRoster" >
+                            <thead>
+                                <tr>
+                                    <th >Champion</th>
+                                    <th >Role</th>
+                                    <th >Runes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+    
+                            </tbody>
+                        </table>
+                    </td>
+                </td>
+            </tr>
+        </table>
+
+    
+
+
+       
+
+
+    <script src="FormText.js"></script>
+    
+
+   
+</body>
+</html>

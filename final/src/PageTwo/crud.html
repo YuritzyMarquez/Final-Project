@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Two</title>
+</head>
+
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+<link rel="stylesheet" href="crud.css">
+
+<body>
+
+<h1> League of Legends Champion Survey</h1>
+
+<h3>Below please rate a champion. Give a reason(s) for your rating, and explain what modifications you'd like to see in order to improve said champion.</h3>
+    
+    <table class="input text background">
+        <tr>
+            <td>
+                <form  autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label class="fontSize" for="champion">Champion</label><br>
+                        <input class="box" type="text" name="champion" id="champion">
+                    </div>
+                    <div>
+                        <label class="fontSize" for="rating">Rating</label><br>
+                        <input class="box" type="text" name="rating" id="rating">
+                    </div>
+                    <div>
+                        <label class="fontSize" for="reason">Reason</label><br>
+                        <input class="box" type="text" name="reason" id="reason">
+                    </div>
+                    <div>
+                        <label class="fontSize" for="modifications">Modifications</label><br>
+                        <input class="box" type="text" name="modifications" id="modifications">
+                    </div>
+
+                    <div class="form_action--button" id="buttons">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table id="championRoster">
+                        <thead>
+                            <tr>
+                                <th >Champion</th>
+                                <th >Rating</th>
+                                <th >Reason</th>
+                                <th >Modifications</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+<script src="crud.js"></script>
+
+
+
+</body>
+</html>
